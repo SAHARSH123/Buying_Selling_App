@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buy"
+            android:icon="@drawable/shopping"
+            android:title="Buy" />
+        <item
+            android:id="@+id/sell"
+            android:icon="@drawable/sell"
+            android:title="Sell" />
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/logout"
+            android:title="Sign Out" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/develop"
+                android:title="Developer" />
+        </menu>
+    </item>
+
+</menu>
